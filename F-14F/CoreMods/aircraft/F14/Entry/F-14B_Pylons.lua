@@ -49,6 +49,7 @@ function add_f14b_weapons(pylons)
             -- { CLSID = "GBU-12x6", connector = "WEP_PhoenixWingPylon_L", attach_point_position = {-0.44, 0.2, 0.005} }, -- GBU-12x6
             { CLSID = "{PHXBRU3242_GBU-12 LS}", connector = "WEP_PhoenixWingPylon_L"}, -- GBU-12*2
             { CLSID = "{PHXBRU3242_3*GBU-12 AS}", connector = "WEP_PhoenixWingPylon_L"}, -- GBU-12*3
+            { CLSID = "{PHXBRU3242_3*GBU-24 AS}", connector = "WEP_PhoenixWingPylon_L"}, -- GBU-24*3
 
             { CLSID = "{GBU-39-ARB}", connector = "WEP_PhoenixWingPylon_L", attach_point_position = {-0.44, 0.2, 0.005} }, -- GBU-39
 
@@ -417,6 +418,7 @@ function add_f14b_weapons(pylons)
             -- { CLSID = "GBU-12x6", connector = "WEP_PhoenixWingPylon_R", attach_point_position = {-0.44, 0.2, 0.005} }, -- GBU-12x6
             { CLSID = "{PHXBRU3242_GBU-12 RS}", connector = "WEP_PhoenixWingPylon_R"}, -- GBU-12*2
             { CLSID = "{PHXBRU3242_3*GBU-12 AS}", connector = "WEP_PhoenixWingPylon_R"}, -- GBU-12*3
+            { CLSID = "{PHXBRU3242_3*GBU-24 AS}", connector = "WEP_PhoenixWingPylon_R"}, -- GBU-24*3
 
             { CLSID = "{GBU-39-ARB}", connector = "WEP_PhoenixWingPylon_R", attach_point_position = {-0.44, 0.2, 0.005} }, -- GBU-39
 
