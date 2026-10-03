@@ -130,6 +130,7 @@ function add_f14b_weapons(pylons)
 
             { CLSID = "BRU-42_3*GBU-12", arg = 601, arg_value = 0, connector = "WEP_Phoenix_FrontPallette_L", Cx_gain = 0.57 }, -- GBU-12*3
             { CLSID = "{BRU33_2X_GBU-12}", arg = 601, arg_value = 0, connector = "WEP_Phoenix_FrontPallette_L", Cx_gain = 0.57 }, -- GBU-12*2
+            { CLSID = "{PHXBRU3242_GBU-24 LS}", arg = 601, arg_value = 0, connector = "WEP_Phoenix_FrontPallette_L", Cx_gain = 0.57 }, -- GBU-24*2
 
             { CLSID = "{AIM260Ax4}", arg = 601, arg_value = 0, connector = "WEP_Phoenix_FrontPallette_L", Cx_gain = 0.57 }, -- AIM-260A
             {
@@ -193,6 +194,8 @@ function add_f14b_weapons(pylons)
 
             { CLSID = "BRU-42_3*GBU-12", arg = 602, arg_value = 0, connector = "WEP_Phoenix_RearPallette_L", Cx_gain = 0.57 }, -- GBU-12*3
             { CLSID = "{BRU33_2X_GBU-12}", arg = 602, arg_value = 0, connector = "WEP_Phoenix_RearPallette_L", Cx_gain = 0.57 }, -- GBU-12*2
+            { CLSID = "{PHXBRU3242_GBU-24 LS}", arg = 602, arg_value = 0, connector = "WEP_Phoenix_RearPallette_L", Cx_gain = 0.57 }, -- GBU-24*2
+
 
             { CLSID = "{AIM260Ax6}", arg = 602, arg_value = 0, connector = "WEP_Phoenix_RearPallette_L", Cx_gain = 0.57, attach_point_position = {-1.1,0,0} }, -- AIM-260A
             {
@@ -256,6 +259,8 @@ function add_f14b_weapons(pylons)
 
             { CLSID = "BRU-42_3*GBU-12", arg = 604, arg_value = 0, connector = "WEP_Phoenix_RearPallette_R", Cx_gain = 0.57 }, -- GBU-12*3
             { CLSID = "{BRU33_2X_GBU-12}", arg = 604, arg_value = 0, connector = "WEP_Phoenix_RearPallette_R", Cx_gain = 0.57 }, -- GBU-12*2
+            { CLSID = "{PHXBRU3242_GBU-24 RS}", arg = 604, arg_value = 0, connector = "WEP_Phoenix_RearPallette_R", Cx_gain = 0.57 }, -- GBU-24*3
+
 
             { CLSID = "{AIM260Ax6}", arg = 604, arg_value = 0, connector = "WEP_Phoenix_RearPallette_R", Cx_gain = 0.57, attach_point_position = {-1.1,0,0} }, -- AIM-260A
             {
@@ -319,6 +324,7 @@ function add_f14b_weapons(pylons)
 
             { CLSID = "BRU-42_3*GBU-12", arg = 602, arg_value = 0, connector = "WEP_Phoenix_FrontPallette_R", Cx_gain = 0.57 }, -- GBU-12*3
             { CLSID = "{BRU33_2X_GBU-12}", arg = 602, arg_value = 0, connector = "WEP_Phoenix_FrontPallette_R", Cx_gain = 0.57 }, -- GBU-12*2
+            { CLSID = "{PHXBRU3242_GBU-24 RS}", arg = 602, arg_value = 0, connector = "WEP_Phoenix_FrontPallette_R", Cx_gain = 0.57 }, -- GBU-24*3
 
             { CLSID = "{AIM260Ax4}", arg = 602, arg_value = 0, connector = "WEP_Phoenix_FrontPallette_R", Cx_gain = 0.57 }, -- AIM-260A
             {
