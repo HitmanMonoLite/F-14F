@@ -77,10 +77,10 @@ local gbu24_bomb = {
     mass            = 934,
     Weight_Empty    = 57.38,
     Weight          = 57.38 + 1050,
-    wsTypeOfWeapon  = {wsType_Weapon, wsType_Bomb, wsType_Bomb_Guided, GBU_24},
+    wsType          = {wsType_Weapon, wsType_Bomb, wsType_Bomb_Guided, GBU_24},
     attribute       = {wsType_Weapon,wsType_Bomb,wsType_Container,WSTYPE_PLACEHOLDER},
     Cx              = 0.000027,
-    ShapeName       = "GBU-24",
+    ShapeName       = "GBU24",
 }
 
 local function bru_42_3x_bomb(clsid,weapon_info,left,right,bottom,attach_offset)
@@ -224,7 +224,7 @@ local function phx_adapter_nested(clsid,nested_loadout)
     return ret
 end
 
--- GBU-12 на BRU-42
+-- GBU on BRU-42
 phx_adapter_nested("{PHXBRU3242_GBU-12 RS}", bru_32_nested("{BRU3242_GBU-12 RS}", bru_42_3x_bomb("{BRU42_GBU-12 RS}", gbu12_bomb, false, true, true)))
 phx_adapter_nested("{PHXBRU3242_GBU-12 LS}", bru_32_nested("{BRU3242_GBU-12 LS}", bru_42_3x_bomb("{BRU42_GBU-12 LS}", gbu12_bomb, true, false, true)))
 phx_adapter_nested("{PHXBRU3242_3*GBU-12 AS}", bru_32_nested("{BRU3242_3*GBU-12 AS}", bru_42_3x_bomb("{BRU42_3*GBU-12 AS}", gbu12_bomb, true, true, true)))
