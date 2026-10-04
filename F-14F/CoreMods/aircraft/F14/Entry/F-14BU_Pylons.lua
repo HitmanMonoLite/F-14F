@@ -32,6 +32,48 @@ function add_f14bu_weapons(pylons)
             
         }
 
+        local gbu31p_bru42 = {
+
+            CLSID = "{PHXBRU3242_GBU-31P LS}", arg = 601, arg_value = 0.5, connector = "WEP_BRU-34_F_L",
+            forbidden = {
+
+                {station = pylon_5, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_6, loadout = {"<CLEAN>"}}
+
+            }
+            
+        }
+
+        local gbu31s_bru42 = {
+
+            CLSID = "{PHXBRU3242_GBU-31S LS}", arg = 601, arg_value = 0.5, connector = "WEP_BRU-34_F_L",
+            forbidden = {
+
+                {station = pylon_5, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_6, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_6, loadout = {"<CLEAN>"}}
+
+            }
+            
+        }
+
         local gbu54_rbu = {
 
             CLSID = "{SDB_GBU-39}", arg = 601, arg_value = 0.5, connector = "WEP_BRU-34_F_L",
@@ -87,6 +129,8 @@ function add_f14bu_weapons(pylons)
         if bu_only_index then
 
             table.insert(launchers, bu_only_index + 1, gbu38_mer)
+            table.insert(launchers, bu_only_index + 1, gbu31p_bru42)
+            table.insert(launchers, bu_only_index + 1, gbu31s_bru42)
             table.insert(launchers, bu_only_index + 2, gbu54_rbu)
             table.insert(launchers, bu_only_index + 3, gbu54_mer)
 
@@ -100,6 +144,46 @@ function add_f14bu_weapons(pylons)
         local gbu38_mer = {
 
             CLSID = "{GBU-38_MER_6x}", arg = 603, arg_value = 0.5, connector = "WEP_BRU-34_R_L",
+            forbidden = {
+
+                {station = pylon_3, loadout = {"{MAK79_MK83 3L}"}},
+                {station = pylon_3, loadout = {"{MAK79_MK83AIR 3L}"}},
+                {station = pylon_3, loadout = {"{MAK79_MK20 2L}"}},
+                {station = pylon_3, loadout = {"{MAK79_CBU99 2L}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_5, loadout = {"<CLEAN>"}}
+
+            }
+
+        }
+
+        local gbu31p_bru42 = {
+
+            CLSID = "{PHXBRU3242_GBU-31P LS}", arg = 603, arg_value = 0.5, connector = "WEP_BRU-34_R_L",
+            forbidden = {
+
+                {station = pylon_3, loadout = {"{MAK79_MK83 3L}"}},
+                {station = pylon_3, loadout = {"{MAK79_MK83AIR 3L}"}},
+                {station = pylon_3, loadout = {"{MAK79_MK20 2L}"}},
+                {station = pylon_3, loadout = {"{MAK79_CBU99 2L}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_5, loadout = {"<CLEAN>"}}
+
+            }
+
+        }
+
+        local gbu31s_bru42 = {
+
+            CLSID = "{PHXBRU3242_GBU-31S LS}", arg = 603, arg_value = 0.5, connector = "WEP_BRU-34_R_L",
             forbidden = {
 
                 {station = pylon_3, loadout = {"{MAK79_MK83 3L}"}},
@@ -171,6 +255,8 @@ function add_f14bu_weapons(pylons)
         if bu_only_index then
 
             table.insert(launchers, bu_only_index + 1, gbu38_mer)
+            table.insert(launchers, bu_only_index + 1, gbu31p_bru42)
+            table.insert(launchers, bu_only_index + 1, gbu31s_bru42)
             table.insert(launchers, bu_only_index + 2, gbu54_rbu)
             table.insert(launchers, bu_only_index + 3, gbu54_mer)
 
@@ -184,6 +270,46 @@ function add_f14bu_weapons(pylons)
         local gbu38_mer = {
 
             CLSID = "{GBU-38_MER_6x}", arg = 604, arg_value = 0.5, connector = "WEP_BRU-34_R_R",
+            forbidden = {
+
+                {station = pylon_4, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_4, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_4, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_4, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_4, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_4, loadout = {"<CLEAN>"}},
+                {station = pylon_6, loadout = {"{MAK79_MK83 3R}"}},
+                {station = pylon_6, loadout = {"{MAK79_MK83AIR 3R}"}},
+                {station = pylon_6, loadout = {"{MAK79_MK20 2R}"}},
+                {station = pylon_6, loadout = {"{MAK79_CBU99 2R}"}}
+
+            }
+
+        }
+
+        local gbu31p_bru42 = {
+
+            CLSID = "{PHXBRU3242_GBU-31P RS}", arg = 604, arg_value = 0.5, connector = "WEP_BRU-34_R_R",
+            forbidden = {
+
+                {station = pylon_4, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_4, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_4, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_4, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_4, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_4, loadout = {"<CLEAN>"}},
+                {station = pylon_6, loadout = {"{MAK79_MK83 3R}"}},
+                {station = pylon_6, loadout = {"{MAK79_MK83AIR 3R}"}},
+                {station = pylon_6, loadout = {"{MAK79_MK20 2R}"}},
+                {station = pylon_6, loadout = {"{MAK79_CBU99 2R}"}}
+
+            }
+
+        }
+
+        local gbu31s_bru42 = {
+
+            CLSID = "{PHXBRU3242_GBU-31S RS}", arg = 604, arg_value = 0.5, connector = "WEP_BRU-34_R_R",
             forbidden = {
 
                 {station = pylon_4, loadout = {"{BELLY AIM-7E}"}},
@@ -254,6 +380,8 @@ function add_f14bu_weapons(pylons)
         if bu_only_index then
 
             table.insert(launchers, bu_only_index + 1, gbu38_mer)
+            table.insert(launchers, bu_only_index + 1, gbu31p_bru42)
+            table.insert(launchers, bu_only_index + 1, gbu31s_bru42)
             table.insert(launchers, bu_only_index + 2, gbu54_rbu)
             table.insert(launchers, bu_only_index + 3, gbu54_mer)
 
@@ -267,6 +395,50 @@ function add_f14bu_weapons(pylons)
         local gbu38_mer = {
 
             CLSID = "{GBU-38_MER_6x}", arg = 602, arg_value = 0.5, connector = "WEP_BRU-34_F_R",
+            forbidden = {
+
+                {station = pylon_5, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_3, loadout = {"{BRU3242_2*LAU10 R}"}},
+                {station = pylon_3, loadout = {"<CLEAN>"}}
+
+            }
+
+        }
+
+        local gbu31p_bru42 = {
+
+            CLSID = "{PHXBRU3242_GBU-31P RS}", arg = 602, arg_value = 0.5, connector = "WEP_BRU-34_F_R",
+            forbidden = {
+
+                {station = pylon_5, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_5, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7E}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7F}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7M}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7MH}"}},
+                {station = pylon_3, loadout = {"{BELLY AIM-7P}"}},
+                {station = pylon_3, loadout = {"{BRU3242_2*LAU10 R}"}},
+                {station = pylon_3, loadout = {"<CLEAN>"}}
+
+            }
+
+        }
+
+        local gbu31s_bru42 = {
+
+            CLSID = "{PHXBRU3242_GBU-31S RS}", arg = 602, arg_value = 0.5, connector = "WEP_BRU-34_F_R",
             forbidden = {
 
                 {station = pylon_5, loadout = {"{BELLY AIM-7E}"}},
@@ -344,6 +516,8 @@ function add_f14bu_weapons(pylons)
         if bu_only_index then
 
             table.insert(launchers, bu_only_index + 1, gbu38_mer)
+            table.insert(launchers, bu_only_index + 1, gbu31p_bru42)
+            table.insert(launchers, bu_only_index + 1, gbu31s_bru42)
             table.insert(launchers, bu_only_index + 2, gbu54_rbu)
             table.insert(launchers, bu_only_index + 3, gbu54_mer)
 

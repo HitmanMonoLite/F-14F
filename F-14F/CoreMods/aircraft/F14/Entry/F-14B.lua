@@ -607,7 +607,7 @@ F_14 = {
     has_speedbrake     = true,
     has_differential_stabilizer    = true,
 
-    detection_range_max     = 150,
+    detection_range_max     = 200,
     radar_can_see_ground = false,
 
     tand_gear_max = 50.0, -- =  2.75, -- tan(70deg)

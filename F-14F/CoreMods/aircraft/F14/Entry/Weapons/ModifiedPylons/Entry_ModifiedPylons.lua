@@ -7,6 +7,7 @@ dofile(current_mod_path.."/Entry/Weapons/ModifiedPylons/AG_Missiles/AGM-65E.lua"
 -- NEW A-G BOMBS
 
 dofile(current_mod_path.."/Entry/Weapons/ModifiedPylons/Bombs/GBU-12_24.lua")
+dofile(current_mod_path.."/Entry/Weapons/ModifiedPylons/Bombs/GBU-31.lua")
 dofile(current_mod_path.."/Entry/Weapons/ModifiedPylons/Bombs/GBU-38.lua")
 -- dofile(current_mod_path.."/Entry/Weapons/ModifiedPylons/Bombs/__not_realized_laser_bombs.lua")
 
